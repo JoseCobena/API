@@ -1,11 +1,11 @@
 const mysql = require('mysql');
 const pool = mysql.createPool({
 	connectionLimit: 10,
-	password: 'Pocho2001',
-	user: 'root',
-	database: 'Spotify',
-	host: '127.17.0.2',
-	port: '3306'
+	password: '',
+	user: '',
+	database: '',
+	host: '',
+	port: ''
 });
 let vista1 = {};
 vista1.all = () => {
